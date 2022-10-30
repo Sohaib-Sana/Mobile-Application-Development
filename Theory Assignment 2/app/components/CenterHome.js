@@ -38,21 +38,21 @@ const styles = StyleSheet.create({
       },
       triangleUp: {
         top: 52.5,
-        borderBottomColor: 'red',
+        borderBottomColor: 'green',
       },
       triangleDown: {
         bottom: 52.5,
-        borderBottomColor: 'yellow',
+        borderBottomColor: 'blue',
         transform: [{ rotate: "180deg" }],
       },
       triangleLeft: {
         right: 26,
-        borderBottomColor: 'green',
+        borderBottomColor: 'red',
         transform: [{ rotate: "90deg" }],
       },
       triangleRight: {
         left: 26,
-        borderBottomColor: 'blue',
+        borderBottomColor: 'yellow',
         transform: [{ rotate: "270deg" }],
       },
 });

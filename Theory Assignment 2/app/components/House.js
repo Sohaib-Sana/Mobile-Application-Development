@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 
 const House = (props) => {
     return (
-        <View style={[styles.wrapper, props.style]}>
+        <View style={[styles.wrapper, {backgroundColor:props.bgcolor}]}>
             <View style={[styles.container, props.style]}>
                 <View style={styles.circle}></View>
                 <View style={styles.circle}></View>
@@ -30,7 +30,6 @@ const styles = StyleSheet.create({
         justifyContent: 'space-around',
         alignItems: 'center',
         flexWrap: 'wrap'
-        // opacity:"10%"
     },
     circle: {
         width: 50,
